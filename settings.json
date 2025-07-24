@@ -1,0 +1,84 @@
+{
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "files.autoGuessEncoding": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "recentlyUsed",
+  "window.dialogStyle": "custom",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "editor.fontFamily": "'Minecraft AE','Fira Code','Maple Mono'",
+  "workbench.iconTheme": "material-icon-theme",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  // "editor.tokenColorCustomizations": {
+  //   "comments": "#00f7f7ec", //注释
+  //   "strings": "#17f003", //字符串
+  //   "numbers": "#ff1100" //数字
+  // },
+  "editor.fontWeight": "bold", // 注释字体加粗
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingDelete": "always",
+  "prettier.semi": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "chcp 65001 && cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  // "files.exclude": {
+  //   "**/*.exe": true
+  // }, //隐藏exe文件
+  "editor.folding": true,
+  "editor.foldingStrategy": "auto",
+  "workbench.startupEditor": "none",
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.enableExperiments": false,
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.vcpkg.enabled": true,
+  "editor.overviewRulerBorder": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.list.multiSelectModifier": "ctrlCmd",
+  "workbench.editor.labelFormat": "short",
+  "explorer.confirmPasteNative": false,
+  "workbench.colorTheme": "Default High Contrast",
+  "git.openRepositoryInParentFolders": "always",
+
+ "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  },
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.cmakePath": "C:/cmake/bin/cmake.exe",
+
+}
+
+
